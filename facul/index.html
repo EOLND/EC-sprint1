@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<!--
+  Alberto Cruz de Miranda
+  Johann Guilherme Soares Andretti
+  Leonardo Adler
+-->
+  <head>
+    <meta charset="utf-8">
+    <title>Tela de Login</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <div class="center">
+      <h1>Bem Vindo</h1>
+      <form method="post">
+        <div class="txt_field">
+          <input type="text" required>
+          <span></span>
+          <label>E-mail</label>
+        </div>
+
+        <div class="txt_field">
+          <input type="password" required>
+          <span></span>
+          <label>Senha</label>
+        </div>
+
+        <div class="pwd">Esqueceu a senha?</div>
+        <input type="submit" value="Login" onClick="funcao()"/>
+        <script>
+          function funcao() {
+            window.location.href="http://127.0.0.1/homepage/";  
+          }
+        </script>
+        <div class="signup_link">
+          Não tem conta? <a href="http://127.0.0.1/singup/">Cadastrar-se</a>
+        </div>
+
+      </form>
+    </div>
+  </body>
+</html>
